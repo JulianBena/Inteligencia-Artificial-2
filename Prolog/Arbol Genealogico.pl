@@ -1,6 +1,15 @@
 /* Axiomas---------------------------------------------------------*/
 /* padre de -------------------------------------------------------*/
+
 padrede("Enrique VII","Enrique VIII").
+padrede("Enrique VIII","Eduardo VI"). /*---prueba para primos---*/
+padrede("Enrique VII","Arturo Tudor").
+padrede("Enrique VII","Margarita Tudor").
+padrede("Enrique VII","Isabel").
+padrede("Enrique VII","Maria de Francia").
+padrede("Enrique VII","Edmundo").
+padrede("Enrique VII","Catalina Tudor").
+
 padrede("Edmundo Tudor","Enrique VII").
 padrede("Owen Tudor","Edmundo Tudor").
 padrede("Meredith Tudor","Owen Tudor").
@@ -17,6 +26,10 @@ padrede("Ricardo Woodville","Isabel Woodville").
 padrede("Pedro de Luxemburgo","Jacquetta de Luxemburgo").
 
 /* madre de -------------------------------------------------------*/
+madrede("Jane Seymour","Eduardo VI").
+madrede("Margarita Tudor","Margarita Douglas").
+madrede("Margarita Tudor","Jacobo").
+madrede("Margarita Tudor","Alejandro").
 madrede("Isabel de York","Enrique VIII").
 madrede("Margarita Beaufort","Enrique VII").
 madrede("Catalina de Valois","Edmundo Tudor").
@@ -35,6 +48,9 @@ madrede("Isabel Woodville","Isabel de York").
 
 /* hombre ---------------------------------------------------------*/
 hombre("Enrique VII").
+hombre("Eduardo VI").
+hombre("Arturo Tudor").
+hombre("Edmundo").
 hombre("Edmundo Tudor").
 hombre("Owen Tudor").
 hombre("Meredith Tudor").
@@ -51,6 +67,12 @@ hombre("Ricardo Woodville").
 hombre("Pedro de Luxemburgo").
 
 /* mujer ----------------------------------------------------------*/
+mujer("Margarita Tudor").
+mujer("Margarita Douglas").
+mujer("Jane Seymour").
+mujer("Isabel").
+mujer("Maria de Francia").
+mujer("Catalina Tudor").
 mujer("Isabel de York").
 mujer("Margarita Beaufort").
 mujer("Catalina de Valois").
